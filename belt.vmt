@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "mowgli/Virtual_Youtuber/dola/belt"
+//	"$envmap" "Environment Maps/specular"                  -- From here, down to the phong I'm going to leave this alone.
+//	"$envmaptint" "[ .64 .64 .64 ]"
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+//	"$lightwarptexture" "models/alyx/skin_lightwarp"
+	"$phongexponent" "15"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[.1 0.4 2]"
+
+// -- So here I'm applying a gold-ish sort of look on the crowbar, along WITH the phong above.
+
+	"$envmap" "cubemaps/cubemap_s_tights"	
+	"$envmaptint" "[2.5 2.5 1.15]"
+	"$normalmapalphaenvmapmask" 1
+                "$envmapfresne" 1
+}

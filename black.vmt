@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "mowgli/Virtual_Youtuber/dola/black"
+
+	"$bumpmap" "shared/normal"
+	//"$translucent" "1"
+	//"$model" "1"
+	//"$nodecal" "1"
+	"$nocull" "1"
+	//"$alphatest" 1
+	//"$allowalphatocoverage" 1
+	//"$halflambert" "1"
+	
+
+	"$lightwarptexture" "shared/lightwarptexture"
+
+	"$phong" "1"
+	"$phongboost"	"24"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "cubemaps/cubemap?met"
+	"$phongfresnelranges"	"[0 0 1]"
+}
